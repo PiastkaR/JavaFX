@@ -3,7 +3,7 @@ package com.javafx;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
+import javafx.scene.layout.BorderPane;
 import javafx.stage.Stage;
 
 public class MainHelloFx extends Application {
@@ -16,7 +16,7 @@ public class MainHelloFx extends Application {
     public void start(Stage stage) throws Exception {
         System.out.println("start");
 
-        AnchorPane mainPane = FXMLLoader.load(getClass().getResource("/helloFxml.fxml"));
+        BorderPane mainPane = FXMLLoader.load(getClass().getResource("/helloFxml.fxml"));
         Scene scene = new Scene(mainPane);
         stage.setScene(scene);
         stage.setTitle("Hello java fx!");

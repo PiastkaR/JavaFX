@@ -16,7 +16,7 @@ public class MainHelloFx extends Application {
     public void start(Stage stage) throws Exception {
         System.out.println("start");
 
-        BorderPane mainPane = FXMLLoader.load(getClass().getResource("/helloFxml.fxml"));
+        BorderPane mainPane = FXMLLoader.load(getClass().getResource("/loginPane.fxml"));
         Scene scene = new Scene(mainPane);
         stage.setScene(scene);
         stage.setTitle("Hello java fx!");

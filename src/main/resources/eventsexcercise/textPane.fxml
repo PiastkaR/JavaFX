@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<HBox xmlns:fx="http://javafx.com/fxml/1" VBox.vgrow="ALWAYS">
+<HBox xmlns:fx="http://javafx.com/fxml/1" VBox.vgrow="ALWAYS" fx:controller="com.javafx.eventsexcercise.controller.TextPaneController">
     <children>
         <TextArea fx:id="inputTextArea" maxHeight="1.7976931348623157E308"
                   maxWidth="1.7976931348623157E308" prefHeight="200.0" prefWidth="200.0"

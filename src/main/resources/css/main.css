@@ -1,0 +1,22 @@
+.button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 15px;
+    -fx-font-color: #ffffff;
+    -fx-background-color: #000000;
+}
+.text-area .scroll-pane,
+.text-area .scroll-pane .viewport .content {
+-fx-background-color: #f000f0;
+}
+.text-area {
+-fx-text-fill: ffffff;
+-fx-font-size: 18px;
+}
+
+.yellowButton {
+    -fx-background-color: yellow;
+}
+
+#bigButton:hover {
+    -fx-background-color: red;
+}

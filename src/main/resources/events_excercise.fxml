@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.VBox?>
 
 
-<VBox prefHeight="188.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.eventsexcercise.EventsExcerciseController">
+<VBox prefHeight="188.0" prefWidth="257.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.eventsexcercise.controller.EventsExcerciseController">
    <children>
       <HBox prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
 <!--         <children>-->

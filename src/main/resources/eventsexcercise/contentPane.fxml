@@ -4,9 +4,9 @@
 <?import javafx.scene.layout.*?>
 
 <VBox xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.javafx.eventsexcercise.EventsExcerciseController">
+      fx:controller="com.javafx.eventsexcercise.controller.ContentPaneController">
     <children>
-        <fx:include source="textPane.fxml" />
+        <fx:include source="textPane.fxml" fx:id="textPane"/>
         <Button fx:id="clearButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false"
                 text="Clear windows" VBox.vgrow="NEVER"/>
     </children>

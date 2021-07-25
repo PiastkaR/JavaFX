@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Mp3DataReader {
     public static void main(String[] args) throws IOException, TagException {
-        File sourceFile = new File("/mp3/scott_holmes_music_stylish_groove.mp3");
+        File sourceFile = new File("scott_holmes_music_stylish_groove.mp3");
         MP3File mp3file = new MP3File(sourceFile);
         if (mp3file.hasID3v2Tag()) {
             AbstractID3v2 tag = mp3file.getID3v2Tag();
